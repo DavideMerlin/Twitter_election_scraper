@@ -5,10 +5,10 @@ import time
 
 #user credentials to authenticate API
 #you will get these credentilas when creating a developer account on Twitter
-consumer_key = "QsWUqQEugbdFV7iHQyUNGxhZL"
-consumer_secret = "xrKOEzf19gVj1OlYSxVF1FRDXRli5qFf2sIajaeBByMaHqCwkR"
-access_token = "1127916883360010241-beYUbnEGTUlP9sofgJOozbrm3tJoZq"
-access_token_secret = "WGjbW2gbHwdBM5g1CbicHfSmAxnpSscUg3mU1OKheADjF"
+consumer_key = "your code here"
+consumer_secret = "your code here"
+access_token = "your code here"
+access_token_secret = "your code here"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
